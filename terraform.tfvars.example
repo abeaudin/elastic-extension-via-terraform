@@ -1,0 +1,9 @@
+# Copy this file to terraform.tfvars and fill in your real values.
+# terraform.tfvars is where your actual secrets/settings live - don't commit it.
+
+ec_api_key             = "your-api-key-here"
+ec_region              = "azure-useast2"          # match your account's available regions
+deployment_template_id = "azure-general-purpose" # must match the region above
+elastic_stack_version  = "9.1.5"                    # check Cloud UI for currently valid versions
+deployment_name        = "test"
+bundle_zip_path         = "./synonyms-bundle.zip"
